@@ -1,0 +1,51 @@
+# Site Settings
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Zach Sommers"
+theme = "hugo-identity-theme"
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
+                "robotsTXT", "404"]
+
+[params]
+  [params.personal]
+    name = "Zach Sommers"
+    avatar = "zach_avatar.jpg"
+    position = "Senior Software Engineer"
+    livesIn = "[Salem, Oregon](https://www.google.com/maps/place/Salem,+OR/@44.93297,-123.0982468,12z/data=!3m1!4b1!4m5!3m4!1s0x54bffefcbc4b9c63:0xf93429e08f0357c2!8m2!3d44.9428975!4d-123.0350963)"
+    biography = """
+    I am passionate about building new things and learning new skills.
+    I have over a decade of experience and am open for new work.
+    """
+  [params.contact]
+    email = "zach@zachsommers.com"
+    enable = true
+    title = "Contact Me!"
+    namePlaceholder = "Name"
+    emailPlaceholder = "Email"
+    messagePlaceholder = "Message"
+    buttonText = "Send"
+    success = "Thank you for contacting me."
+    error = "Message could not be sent. Please contact me at zach@zachsommers.com"
+
+  [[params.social]]
+    title = "GitHub"
+    icon = "fa-github"
+    link = "https://github.com/zsommers"
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/zach-sommers-13766385/"
+
+  [params.footer]
+    copyright = "Zach Sommers"
+
+  # Credits
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HTML5UP"
+    # Text will be used to explain the credit
+    text = "Design by"
+    link = "https://html5up.net"
